@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html ng-app="tigApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Tig Notaro</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" ></script>
+<script src="//use.typekit.net/feq0oiz.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+<link rel="stylesheet" href="js/slicknav.css">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#menu').slicknav();
+    });
+</script>
+
+</head>
+
+<body>
+<navbar></navbar>
+<div ng-view></div>
+<footer></footer>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular/angular-route.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controller/homecontroller.js"></script>
+<script src="js/controller/tourcontroller.js"></script>
+<script src="js/directives/elements.js"></script>
+
+</body>
+</html>
